@@ -17,6 +17,7 @@ export async function POST(req: Request) {
         })
     }
 
+
     const userId = session.user.id;
 
     const { question, options, expiresAt } = await req.json();
@@ -56,3 +57,4 @@ export async function POST(req: Request) {
         return NextResponse.json({ msg: "Unexpected error" }, {status:500});
     }
 }
+

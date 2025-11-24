@@ -61,7 +61,7 @@ export default function () {
     }
 
     return <form onSubmit={handleSubmit} className="min-h-screen flex justify-center items-center">
-        <div className="w-2/5 bg-white/10 backdrop-blur-xl rounded-3xl shadow-2xl p-12 border  border-white/20">
+        <div className="w-80 lg:w-2/5 bg-white/10 backdrop-blur-xl rounded-3xl shadow-2xl p-12 border  border-white/20">
             <h1 className="text-center text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 via-purple-400 to-pink-500 mb-6">Create Poll</h1>
             <div className="flex flex-col pb-4">
                 <label htmlFor="question">

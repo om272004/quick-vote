@@ -8,7 +8,7 @@ export default async function Home() {
   const session = await getServerSession(authOptions);
 
   return <main className="min-h-screen flex justify-center items-center">
-    <div className="max-w-2xl bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-12 shadow-2xl text-center ">
+    <div className="max-w-80 md:max-w-2xl bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-12 shadow-2xl text-center ">
       <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-500 pb-2 mb-6">
         Instant, Real-Time Polling
       </h1>
